@@ -1,6 +1,6 @@
 RSpine = require("rspine")
 
-class Rodco-buy extends RSpine.Controller
+class RodcoBuy extends RSpine.Controller
   className: "app-canvas"
     
   constructor: ->
@@ -16,4 +16,4 @@ class Rodco-buy extends RSpine.Controller
   shutdown: ->
     @release()
 
-module.exports = Rodco-buy
+module.exports = RodcoBuy
