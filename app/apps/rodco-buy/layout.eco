@@ -36,6 +36,7 @@
           <div class="form-group col-md-4">
             <label class="col-md-3">Dpto</label>
             <div class="btn-group col-md-9">
+              
               <button type="button" class="btn btn-default btn-lg btn-block dropdown-toggle" data-toggle="dropdown">
                 TODOS <span class="caret"></span>
               </button>
@@ -59,25 +60,7 @@
 <div class="row">
 
   <!-- Lista de productos. -->
-  <section class="col-md-7">
-    
-    <!-- Producto individual. -->
-    <article class="col-md-12">
-        <div class="btn btn-default btn-block">
-          <h4 class="col-md-12 text-left">CANDADOS YALE 11840 VISUAL BLISTER</h4>
-          <h4 class="col-md-12"> 
-            <span class="pull-left">Precio:</span>
-            <span class="text-primary">Disponibles:67</span>
-            <span class="pull-right">Descuento:3%</span>
-          </h4>
-        </div>
-        <div class="progress">
-          <div class="progress-bar progress-bar-primary"  role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%">
-            <span class="sr-only">67% Complete</span>
-          </div>
-        </div>
-    </article>
-  </section>
+  <section class="col-md-7 product-list">Loading products...</section>
 
   <!-- Carrito de compras. -->
   <section class="col-md-4">
