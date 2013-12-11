@@ -1,7 +1,7 @@
 RSpine = require('rspine')
 
 class producto extends RSpine.Model
-  @configure "Producto__c", "Name", "InventarioActual__c", "PrecioMinimo__c", "DescuentoMaximo__c", "Impuesto__c"
+  @configure "Producto__c", "Name", "InventarioActual__c", "PrecioMinimo__c", "DescuentoMaximo__c", "Impuesto__c", "Categoria__c", "Grupo__c"
   
   @extend RSpine.Model.SalesforceAjax
   @extend RSpine.Model.SalesforceAjax.Auto
@@ -10,6 +10,9 @@ class producto extends RSpine.Model
   # Filters.
   @filters:
     '' : 'Activo__c = true'
+ 
+  porcentage: ->
+    return 90
   
   
   constructor: -> 

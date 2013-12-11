@@ -9,6 +9,7 @@ class RodcoBuy extends RSpine.Controller
   
   elements:
     '.product-list': 'productList'
+    '.departamentos-list': 'departamentosList'
 
   constructor: ->
     super
@@ -30,5 +31,7 @@ class RodcoBuy extends RSpine.Controller
   # Products methods.
   renderProducts: =>
     @productList.html require('app/rodco-buy/product_item_layout') Product.all()
+    
+
 
 module.exports = RodcoBuy

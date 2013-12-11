@@ -40,7 +40,7 @@
               <button type="button" class="btn btn-default btn-lg btn-block dropdown-toggle" data-toggle="dropdown">
                 TODOS <span class="caret"></span>
               </button>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu btn-block departamentos-list" role="menu">
                 <li><a href="#">Candados</a></li>
                 <li><a href="#">Metales</a></li>
                 <li><a href="#">Remate</a></li>
